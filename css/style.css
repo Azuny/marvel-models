@@ -1,13 +1,22 @@
 body {
     padding-top: 94px;
+    overflow-x:hidden;
+}
+body .container {
+    width: 100%;
+    padding: 0;
+}
+h1, h2 {
+    font-weight: bolder;
 }
 
-
+/*bs*/
 .navbar {
     background-color: #fff;
     font-size: 15px;
     font-weight: bold;
     height: 94px;
+    width: 100%;
     padding: 0 56px 0 41px;
 }
 .navbar-header {
@@ -29,4 +38,113 @@ body {
 .navbar-default .navbar-nav>li>a:hover {
     color: #785f37;
     border-top: 3px solid;
+}
+.glyphicon {
+    color: #a08c5b;
+    font-size: 42px;
+    height: 84px;
+    width: 84px;
+    background-color: black;
+    text-align: center;
+    line-height: 84px;
+    border-radius: 50%;
+}
+
+/*custom*/
+.image {
+    position: relative;
+}
+h1.top-img-text{
+    position: absolute;
+    top: 100px;
+    left: 160px;
+    color: #cbb682;
+    font-size: 77px;
+    font-weight: bolder;
+}
+span.top-img-text{
+    position: absolute;
+    top: 50%;
+    left: 160px;
+    color: #fff;
+    opacity: 0.5;
+    font-size: 22px;
+    font-weight: lighter;
+}
+.uslugi {
+    color: #72849c;
+    padding-bottom: 55px;
+    font-size: 22px;
+}
+.uslugi a {
+    display: block;
+}
+.uslugi a:hover {
+    opacity: 0.55;
+    text-decoration: none;
+}
+.uslugi h2 {
+    color: #515b69;
+    font-size: 22px;
+}
+.about {
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    height: 362px;
+    padding: 75px 75px 75px 75px;
+}
+.bottom-img-text {
+    position: absolute;
+    color: #fff;
+    font-weight: bolder;
+    padding: 0;
+    bottom: 100px;
+    left: 130px;
+    font-size: 40px;
+}
+.contact {
+    padding: 0 7% 0 7%;
+    font-size: 22px;
+}
+.contact h2 {
+    color: #515b69;
+}
+.contact input[type="text"] {
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #d2d2d2;
+}
+.contact textarea[name="message"] {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #d2d2d2;
+}
+.contact input[name="message"] {
+    height: 150px;
+}
+.contact input[type="submit"] {
+    background: #72849c;
+    color: #fff;
+    font-size: 18px;
+    padding: 17px 40px;
+    margin-bottom: 40px;
+    border: 0;
+}
+.contact input[type="submit"]:hover {
+    background: #35baf2;
+}
+.footer {
+    padding: 35px 0 35px 0;
+    text-align: center;
+    background: #ecf0f5;
+}
+.anchor {
+    position: relative;
+    top: -94px;
 }
