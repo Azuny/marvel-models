@@ -1,6 +1,7 @@
 body {
     padding-top: 94px;
     overflow-x:hidden;
+    width: 100%;
 }
 body .container {
     width: 100%;
@@ -38,6 +39,21 @@ h1, h2 {
 .navbar-default .navbar-nav>li>a:hover {
     color: #785f37;
     border-top: 3px solid;
+}
+.navbar-collapse.collapse.in {
+    margin: -8px -46px -8px -41px;
+}
+.navbar-collapse.collapse.in li {
+    padding: 0;
+}
+.navbar-collapse.collapse.in li>a {
+    color: #fff;
+    padding: 15px 12px 12px 30px;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.4em;
+    margin: -2px;
+    background-color: #37507a;
 }
 .glyphicon {
     color: #a08c5b;
