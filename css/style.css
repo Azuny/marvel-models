@@ -1,0 +1,32 @@
+body {
+    padding-top: 94px;
+}
+
+
+.navbar {
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 94px;
+    padding: 0 56px 0 41px;
+}
+.navbar-header {
+    line-height: 64px;
+    height: 94px;
+    padding: 15px 0 15px 0;
+}
+.navbar-nav>li {
+    padding-right: 39px;
+}
+.navbar-nav>li:last-child {
+    padding-right: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #515b69;
+    line-height: 64px;
+    padding: 15px 0 15px 0;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #785f37;
+    border-top: 3px solid;
+}
